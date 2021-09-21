@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <GridLayerDefinition>
+    <ResourceId>Library://NaturalEarth/Data/Raster/NE1_50M_LC_SR_W.FeatureSource</ResourceId>
+    <FeatureName>default:default</FeatureName>
+    <Geometry>Raster</Geometry>
+    <GridScaleRange>
+      <ColorStyle>
+        <ColorRule>
+          <LegendLabel/>
+          <Color>
+            <ExplicitColor>000000</ExplicitColor>
+          </Color>
+        </ColorRule>
+        <ColorRule>
+          <LegendLabel/>
+          <Color>
+            <ExplicitColor>FFFFFF</ExplicitColor>
+          </Color>
+        </ColorRule>
+      </ColorStyle>
+      <RebuildFactor>1</RebuildFactor>
+    </GridScaleRange>
+  </GridLayerDefinition>
+</LayerDefinition>
