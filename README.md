@@ -22,7 +22,14 @@ C:\MapGuideEarth
 
 Set up an unmanaged data alias `NaturalEarthData` that points to `C:\MapGuideEarth`
 
-Once done, you can download this repo as a zip file and rename the downloaded zip file to have a `.mgp` extension.
+Once done, you can create the package file to load by doing the following:
+
+ 1. Git clone this repo
+ 2. Enter this clone directory and create a zip file containing the following files/directories: 
+    * `Library`
+    * `MgResourcePackageManifest.xml`
+ 3. Rename the zip file so that it has a `.mgp` extension
+ 4. Load this package into MapGuide via the Site Administrator or MapGuide Maestro
 
 Load this package file using the MapGuide Site Administrator or MapGuide Maestro.
 
@@ -31,7 +38,7 @@ Load this package file using the MapGuide Site Administrator or MapGuide Maestro
 If you want contribute to this dataset, you will need to do the following.
 
  1. Git clone this repo
- 2. Create a new feature branch
+ 2. Enter this clone directory and create a new feature branch
  3. Create a zip file containing the following files/directories: 
     * `Library`
     * `MgResourcePackageManifest.xml`
